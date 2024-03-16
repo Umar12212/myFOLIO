@@ -43,9 +43,7 @@ function App() {
         }
         watch={
           [
-            //..all the dependencies you want to watch to update the scroll.
-            //  Basicaly, you would want to watch page/location changes
-            //  For exemple, on Next.js you would want to watch properties like `router.asPath` (you may want to add more criterias if the instance should be update on locations with query parameters)
+            
           ]
         }
         containerRef={containerRef}
@@ -59,10 +57,10 @@ function App() {
                 <AnimatePresence>
                   {/* РОУТИНГ */}
                   <Routes>
-                    <Route path='/' element={<Home />} errorElement={console.log('Home is Error!!!')}/>
-                    <Route path='about' element={<About /> }  errorElement={console.log('About page is Error!!!')}/>
-                    <Route path='contact' element={<Contact />}  errorElement={console.log('contact page isError!!!')}/>
-                    <Route path='projects' element={<Projects />}  errorElement={console.log('project page is Error!!!')}/>
+                    <Route path='/' element={<Home />} />
+                    <Route path='about' element={<About /> } />
+                    <Route path='contact' element={<Contact />} />
+                    <Route path='projects' element={<Projects />} />
                   </Routes>
                 </AnimatePresence>
 
