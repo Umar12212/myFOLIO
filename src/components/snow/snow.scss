@@ -1,0 +1,59 @@
+
+.dot {
+    width: 35px !important;
+    height: 35px !important;
+    position: absolute !important;
+    background: url('petal.png') !important;
+    background-size: 100% 100% !important;
+    z-index: 999999999999999999 !important;
+    
+  }
+  
+  
+  #petals {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+
+
+/* html{
+    position: relative;
+}
+body {
+    margin: 0;
+    background: #fdfdfd;
+    overflow: hidden;
+    perspective: 1000px;
+
+    font-family: 'Caveat', cursive;
+}
+
+.snow{
+
+    background-image: url('./../../icons/background1.png'), url('./../../icons/background2.png'), url('./../../icons/background3.png');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -999;
+    animation: snow 30s linear infinite;
+    filter: blur(11px);
+    
+}
+
+@keyframes snow {
+    0%{
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100%{
+        background-position: 600px 1800px, 600px 1200px, 600px 600px;
+    }
+    
+} */

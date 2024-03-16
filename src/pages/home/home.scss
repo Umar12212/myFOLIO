@@ -1,0 +1,80 @@
+
+.video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+
+
+.home__bg {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.video {
+    opacity: .6;
+}
+
+
+.title{
+   position: absolute;
+   color: #ffffff;
+   width: 100%;
+   height: 100%;
+   z-index: 9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+.title__text{
+    font-size: 8rem;
+    font-family: 'Kaushan Script', cursive;
+   
+}
+.title__block{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.description{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.volume{
+    cursor: pointer;
+    font-size: 20px !important;
+    text-align: center;
+    width: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999999999999;
+}
+
+@media (max-width: 920px){
+    .title__text{
+        font-size: 6rem;
+    }
+}
+@media (max-width: 720px){
+    .title__text{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 342px){
+    .title__text{
+        font-size: 3rem;
+    }
+}
+

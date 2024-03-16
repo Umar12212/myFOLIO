@@ -1,0 +1,21 @@
+.img{
+    width: 60px;
+}
+
+.logo{
+    
+    position: absolute;
+    z-index: 80;
+    max-width: 208px;
+    fill: white;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.logo__text{
+    margin-left: 15px;
+}

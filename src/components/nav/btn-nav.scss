@@ -1,0 +1,48 @@
+.header__btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(32, 32, 32);
+    width: 15rem;
+    height: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%) ;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    clip-path: polygon(0px 0px, 100% 0px, 80% 100%, 20% 100%);
+    position: absolute;
+    top: 100%;
+    
+
+}
+.img-nav{
+    max-width: 60px;
+}
+
+
+.header__logo {
+    position: absolute;
+    z-index: 80;
+    max-width: 200px;
+    fill: white;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+
+.active {
+    height: 0;
+}
+
+
+
